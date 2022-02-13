@@ -1,0 +1,58 @@
+> show dbs
+admin       0.000GB
+config      0.000GB
+contestant  0.000GB
+local       0.000GB
+test        0.000GB
+> use guvi_zen_class
+switched to db guvi_zen_class
+> db.attendance.insertMany([{
+... "id":"1",
+... "student_name":"Abi",
+... "days_present":"42",
+... "days_absent":"8",
+... "Attendance":"84%",
+... "total_working_days":"50"
+... },
+... {
+... "id":"2",
+... "student_name":"Deepak",
+... "days_present":"40",
+... "days_absent":"10",
+... "Attendance":"80%",
+... "total_working_days":"50"
+... },
+... {
+... "id":"3",
+... "student_name":"Joy",
+... "days_present":"35",
+... "days_absent":"15",
+... "Attendance":"70%",
+... "total_working_days":"50"
+... },
+... {
+... "id":"4",
+... "student_name":"Krish",
+... "days_present":"37",
+... "days_absent":"13",
+... "Attendance":"74%",
+... "total_working_days":"50"
+... },
+... {
+... "id":"5",
+... "student_name":"Vaishu",
+... "days_present":"43",
+... "days_absent":"7",
+... "Attendance":"86%",
+... "total_working_days":"50"
+... }])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("6205554c45672e3037179455"),
+                ObjectId("6205554c45672e3037179456"),
+                ObjectId("6205554c45672e3037179457"),
+                ObjectId("6205554c45672e3037179458"),
+                ObjectId("6205554c45672e3037179459")
+        ]
+}

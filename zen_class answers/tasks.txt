@@ -1,0 +1,119 @@
+> show dbs
+admin           0.000GB
+config          0.000GB
+contestant      0.000GB
+guvi_zen_class  0.000GB
+local           0.000GB
+test            0.000GB
+> use guvi_zen_class
+switched to db guvi_zen_class
+> db.tasks.insertMany([
+... {
+... "id":"1",
+... "task_name":"HTML",
+... "task_assesment":"task",
+... "student_name":"vidyuth",
+... "submitted_at":"2021-04-27 04:12:00",
+... "github_url":"https://github.com/username/HTML-Task",
+... "demo_url":"https://html-task.app",
+... "marks":"6",
+... "mentor_name":"sir",
+... "action":"Good work"
+... },
+... {
+... "id":"2",
+... "task_name":"CSS",
+... "task_assesment":"task",
+... "student_name":"vidyuth",
+... "submitted_at":"2021-04-30 01:25:40",
+... "github_url":"https://github.com/username/CSS-Task",
+... "demo_url":"https://css-task.app",
+... "marks":"6.5",
+... "mentor_name":"sir",
+... "action":"website is responsive"
+... },
+... {
+... "id":"3",
+... "task_name":"DOM",
+... "task_assesment":"task",
+... "student_name":"vidyuth",
+... "submitted_at":"2021-05-20 06:12:30",
+... "github_url":"https://github.com/username/DOM-Task",
+... "demo_url":"https://dom-task.app",
+... "marks":"7.5",
+... "mentor_name":"sir",
+... "action":"mention comments for each class"
+... },
+... {
+... "id":"4",
+... "task_name":"JS",
+... "task_assesment":"task",
+... "student_name":"vidyuth",
+... "submitted_at":"2021-05-22 02:12:00",
+... "github_url":"https://github.com/username/Javascript-Task",
+... "demo_url":"https://Javascript-task.app",
+... "marks":"7",
+... "mentor_name":"sir",
+... "action":"good work"
+... },
+... {
+... "id":"5",
+... "task_name":"React JS",
+... "task_assesment":"task",
+... "student_name":"vidyuth",
+... "submitted_at":"2021-06-17 09:38:08",
+... "github_url":"https://github.com/username/ReactJS-Task",
+... "demo_url":"https://reactjs-task.app",
+... "marks":"6.5",
+... "mentor_name":"sir",
+... "action":"good work, try to implemrnt redux"
+... },
+... {
+... "id":"6",
+... "task_name":"MySQL",
+... "task_assesment":"task",
+... "student_name":"vidyuth",
+... "submitted_at":"2021-07-01 10:12:38",
+... "github_url":"https://github.com/username/MySQL-Task",
+... "demo_url":"https://mysql-task.app",
+... "marks":"8",
+... "mentor_name":"sir",
+... "action":"well structured"
+... },
+... {
+... "id":"7",
+... "task_name":"MongoDB",
+... "task_assesment":"task",
+... "student_name":"vidyuth",
+... "submitted_at":"2021-07-05 09:22:20",
+... "github_url":"https://github.com/username/MongoDB-Task",
+... "demo_url":"https://mongodb-task.app",
+... "marks":"8",
+... "mentor_name":"sir",
+... "action":"connect with react-app and ui responsive"
+... },
+... {
+... "id":"8",
+... "task_name":"NodeJS",
+... "task_assesment":"task",
+... "student_name":"vidyuth",
+... "submitted_at":"2021-08-26 03:00:10",
+... "github_url":"https://github.com/username/NodeJS-Task",
+... "demo_url":"https://nodejs-task.app",
+... "marks":"7.5",
+... "mentor_name":"sir",
+... "action":"Doing great full-stack ui & database and deploy with aws"
+... }])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("62057d2745672e3037179470"),
+                ObjectId("62057d2745672e3037179471"),
+                ObjectId("62057d2745672e3037179472"),
+                ObjectId("62057d2745672e3037179473"),
+                ObjectId("62057d2745672e3037179474"),
+                ObjectId("62057d2745672e3037179475"),
+                ObjectId("62057d2745672e3037179476"),
+                ObjectId("62057d2745672e3037179477")
+        ]
+}

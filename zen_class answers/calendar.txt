@@ -1,0 +1,95 @@
+> show dbs
+admin           0.000GB
+config          0.000GB
+contestant      0.000GB
+guvi_zen_class  0.000GB
+local           0.000GB
+test            0.000GB
+> use guvi_zen_class
+switched to db guvi_zen_class
+> db.calendar.insertMany([{
+... "id":"1",
+... "skill":"HTML",
+... "topics":"HTML-(Topics)",
+... "task":"HTML-(Task)",
+... "Recording_link":"Meeting_rec_link: https://html-rec-share-link Access_passcode:00a!",
+... "session_link":"Session @time link:https://html-meeting-register/0a1 Access_passcode:a@0"
+... },
+... {
+... "id":"2",
+... "skill":"CSS",
+... "topics":"CSS-(Topics)",
+... "task":"CSS-(Task)",
+... "Recording_link":"Meeting_rec_link: https://css-rec-share-link Access_passcode:00b!",
+... "session_link":"Session @time link:https://css-meeting-register/0a1 Access_passcode:b@1"
+... },
+... {
+... "id":"3",
+... "skill":"DOM",
+... "topics":"DOM-(Topics)",
+... "task":"DOM-(Task)",
+... "Recording_link":"Meeting_rec_link: https://dom-rec-share-link Access_passcode:00c!",
+... "session_link":"Session @time link:https://dom-meeting-register/0a1 Access_passcode:c@2"
+... },
+... {
+... "id":"4",
+... "skill":"ReactJS",
+... "topics":"ReactJS-(Topics)",
+... "task":"ReactJS-(Task)",
+... "Recording_link":"Meeting_rec_link: https://reactjs-rec-share-link Access_passcode:00d!",
+... "session_link":"Session @time link:https://reactjs-meeting-register/0a1 Access_passcode:d@4"
+... },
+... {
+... "id":"5",
+... "skill":"MySQL",
+... "topics":"MySQL-(Topics)",
+... "task":"MySQL-(Task)",
+... "Recording_link":"Meeting_rec_link: https://mysql-rec-share-link Access_passcode:00e!",
+... "session_link":"Session @time link:https://mysql-meeting-register/0a1 Access_passcode:e@5"
+... },
+... {
+... "id":"6",
+... "skill":"MongoDB",
+... "topics":"MongoDB-(Topics)",
+... "task":"MongoDB-(Task)",
+... "Recording_link":"Meeting_rec_link: https://mongodb-rec-share-link Access_passcode:00f!",
+... "session_link":"Session @time link:https://mongodb-meeting-register/0a1 Access_passcode:f@6"
+... },
+... {
+... "id":"7",
+... "skill":"NodeJS",
+... "topics":"NodeJS-(Topics)",
+... "task":"NodeJS-(Task)",
+... "Recording_link":"Meeting_rec_link: https://nodejs-rec-share-link Access_passcode:00g!",
+... "session_link":"Session @time link:https://nodejs-meeting-register/0a1 Access_passcode:g@7"
+... },
+... {
+... "id":"8",
+... "skill":"AWS",
+... "topics":"AWS-(Topics)",
+... "task":"AWS-(Task)",
+... "Recording_link":"Meeting_rec_link: https://aws-rec-share-link Access_passcode:00h!",
+... "session_link":"Session @time link:https://aws-meeting-register/0a1 Access_passcode:h@8"
+... },
+... {
+... "id":"9",
+... "skill":"DSA",
+... "topics":"DSA-(Topics)",
+... "task":"DSA-(Task)",
+... "Recording_link":"Meeting_rec_link: https://dsa-rec-share-link Access_passcode:00i!",
+... "session_link":"Session @time link:https://dsa-meeting-register/0a1 Access_passcode:i@9"
+... }])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("62055d6b45672e303717945a"),
+                ObjectId("62055d6b45672e303717945b"),
+                ObjectId("62055d6b45672e303717945c"),
+                ObjectId("62055d6b45672e303717945d"),
+                ObjectId("62055d6b45672e303717945e"),
+                ObjectId("62055d6b45672e303717945f"),
+                ObjectId("62055d6b45672e3037179460"),
+                ObjectId("62055d6b45672e3037179461"),
+                ObjectId("62055d6b45672e3037179462")
+        ]
+}
